@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html language="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Finder</title>
+    <link rel="shortcut icon" herf="https://www.github.com/github.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>GitHub
+        <span>Finder</span>
+      </h1>
+      <div class="search-container">
+        <input type="text" class="query" value="" placeholder="Enter username">
+        <button type="button" onclick="getUser()">
+          <span class="material-icons-outlined">Search</span>
+        </button>
+      </div>
+    </header>
+    <main id="user-info"></main>
+    <script src="finder.js"></script>
+  </body>
+</html>
